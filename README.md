@@ -101,26 +101,15 @@ fuverse/
 │── README.md
 ```
 
----
-
-## 📸 Screenshots (Add yours here)
-
-> Replace the placeholders with your own images
-
-| Home | Chat | Sidebar |
-|------|------|---------|
-| ![Home](./screenshots/home.png) | ![Chat](./screenshots/chat.png) | ![Sidebar](./screenshots/sidebar.png) |
-
----
 
 ## 🧑‍💻 Author
 
-**👤 Kamsala Chandrasekhar (Nani)**  
+**👤 Kamsala Chandrasekhar**  
 Student at Kalasalingam University  
 Aspiring AI/ML Engineer | Web Developer  
 
 GitHub: https://github.com/chandrasekhar-kamsala  
-LinkedIn: *Add later once profile is ready*
+LinkedIn: www.linkedin.com/in/chandrasekhar-kamsala-038199370
 
 ---
 
