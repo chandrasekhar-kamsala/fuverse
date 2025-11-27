@@ -1,63 +1,37 @@
-# 🚀 Fuverse – AI That Talks Like Your Future Self
+# 🚀 Fuverse – Full-Stack AI Personal Growth Platform
 
-Fuverse is an intelligent AI-powered guidance platform designed to help users reflect, plan, and grow.  
-Built using **React**, **Firebase**, and **Groq AI**, Fuverse provides personalized conversations, future planning tools, timeline insights, and mental clarity features — all inside a clean, minimal UI.
+Fuverse is a **full-stack AI-powered personal growth platform** designed to help users **track habits, plan goals, and receive personalized coaching**.  
+Built with **React**, **Firebase**, and **OpenAI GPT API**, Fuverse integrates interactive dashboards, voice input/output, and AI-driven insights.
 
 ---
 
-## 📌 Key Features
+## 🌟 Key Features
 
-### 🔮 **Future Mirror (Memory Mode 2.0)**
-- AI generates personalized future plans  
-- Smart milestone tracking  
-- Saves each plan in Firebase  
-
-### 🧠 **Mind Mode**
-- Mood input (emoji, slider, text)  
-- AI mood coach  
-- Personality style switching  
-- Daily mindset history  
-- Voice interaction (TTS + STT)  
-
-### ⏳ **Time Machine Replies**
-- Advice from 1-year, 5-year, and 10-year future selves  
-- Timeline comparison  
-- Consequence explorer  
-
-### 🧬 **AI Personality Mode**
-- Choose AI style (Mentor, Monk, Coach, Friend, Robot, etc.)  
-- Voice interaction  
-- Personality analytics  
-
-### 📊 **Dashboard**
-- Track mental patterns  
-- View saved plans  
-- AI recommendations  
+- **AI Personality Selector:** Compare responses from 5 different AI personalities  
+- **Future Mirror:** AI-guided goal planning with PDF export  
+- **Letter to Self:** Time-locked journaling vault for personal reflections  
+- **Life Tracker:** Habit & mood analytics with interactive charts  
+- **Mind Mode:** Mood input (emoji, slider, text) with AI mood coach and daily tracking  
+- **Voice Interaction:** TTS and STT integration for immersive AI conversation  
 
 ---
 
 ## 🛠️ Tech Stack
 
-### **Frontend**
-- React + Vite  
-- Tailwind CSS  
-- ShadCN UI  
-
-### **Backend / Services**
-- Firebase Auth  
-- Firebase Firestore  
-- Groq API  
-- Web Speech API  
+- **Frontend:** React, Vite, Tailwind CSS, ShadCN UI  
+- **Backend / Cloud:** Firebase Auth & Firestore  
+- **AI / ML:** OpenAI GPT API (dynamic prompt engineering)  
+- **Other Tools:** Recharts, Web Speech API, jsPDF, PDF export  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repo
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/chandrasekhar-kamsala/fuverse.git
 cd fuverse
-```
+--
 
 ### 2️⃣ Install dependencies
 ```bash
