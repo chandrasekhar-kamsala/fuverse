@@ -1,12 +1,146 @@
-# React + Vite
+# 🚀 Fuverse – AI That Talks Like Your Future Self
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fuverse is an intelligent AI-powered guidance platform designed to help users reflect, plan, and grow.  
+Built using **React**, **Firebase**, and **Groq AI**, Fuverse provides personalized conversations, future planning tools, timeline insights, and mental clarity features — all inside a clean, minimal UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Key Features
 
-## Expanding the ESLint configuration
+### 🔮 **Future Mirror (Memory Mode 2.0)**
+- AI generates personalized future plans  
+- Smart milestone tracking  
+- Saves each plan in Firebase  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧠 **Mind Mode**
+- Mood input (emoji, slider, text)  
+- AI mood coach  
+- Personality style switching  
+- Daily mindset history  
+- Voice interaction (TTS + STT)  
+
+### ⏳ **Time Machine Replies**
+- Advice from 1-year, 5-year, and 10-year future selves  
+- Timeline comparison  
+- Consequence explorer  
+
+### 🧬 **AI Personality Mode**
+- Choose AI style (Mentor, Monk, Coach, Friend, Robot, etc.)  
+- Voice interaction  
+- Personality analytics  
+
+### 📊 **Dashboard**
+- Track mental patterns  
+- View saved plans  
+- AI recommendations  
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React + Vite  
+- Tailwind CSS  
+- ShadCN UI  
+
+### **Backend / Services**
+- Firebase Auth  
+- Firebase Firestore  
+- Groq API  
+- Web Speech API  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/chandrasekhar-kamsala/fuverse.git
+cd fuverse
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Create `.env` (private)
+Create a new `.env` file in your project root:
+
+```env
+VITE_GROQ_API_KEY=your_key_here
+VITE_FIREBASE_API_KEY=your_key_here
+```
+
+(Your `.env` is ignored for safety.)
+
+### 4️⃣ Start the project
+```bash
+npm run dev
+```
+
+Fuverse will open on:  
+👉 http://localhost:5173/
+
+---
+
+## 📁 Folder Structure
+
+```
+fuverse/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│── public/
+│── .gitignore
+│── package.json
+│── tailwind.config.js
+│── README.md
+```
+
+---
+
+## 📸 Screenshots (Add yours here)
+
+> Replace the placeholders with your own images
+
+| Home | Chat | Sidebar |
+|------|------|---------|
+| ![Home](./screenshots/home.png) | ![Chat](./screenshots/chat.png) | ![Sidebar](./screenshots/sidebar.png) |
+
+---
+
+## 🧑‍💻 Author
+
+**👤 Kamsala Chandrasekhar (Nani)**  
+Student at Kalasalingam University  
+Aspiring AI/ML Engineer | Web Developer  
+
+GitHub: https://github.com/chandrasekhar-kamsala  
+LinkedIn: *Add later once profile is ready*
+
+---
+
+## 📌 Roadmap
+
+- [ ] Deploy Fuverse online  
+- [ ] Add animated timeline visualizer  
+- [ ] Add AI-generated daily summaries  
+- [ ] Add offline mode  
+- [ ] Mobile-friendly UI  
+
+---
+
+## 📄 License
+
+This project is for **educational and personal use** only.
+
+---
+
+## ⭐ Support
+
+If you like this project, please give the repository a **⭐ star** — it helps a lot!
+
